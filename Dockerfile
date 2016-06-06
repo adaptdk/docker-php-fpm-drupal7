@@ -23,7 +23,8 @@ RUN \
     && docker-php-ext-install -j$(nproc) \
       pcntl \
       zip \
-      opcache
+      opcache \
+      imagemagick
 
 RUN \
   mkdir /run/php/ && \
