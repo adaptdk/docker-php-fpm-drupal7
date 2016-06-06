@@ -9,6 +9,7 @@ RUN \
       libpng12-dev \
       msmtp \
       mariadb-client \
+      htop \
     && docker-php-ext-install -j$(nproc) \
       iconv \
       mcrypt \
