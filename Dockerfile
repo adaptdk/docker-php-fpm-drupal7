@@ -23,7 +23,8 @@ RUN \
     && docker-php-ext-install -j$(nproc) \
       pcntl \
       zip \
-      opcache
+      opcache \
+      mcrypt
 
 # Possible values for docker-php-ext-install:
 # bcmath bz2 calendar ctype curl dba dom enchant exif fileinfo filter ftp gd gettext gmp hash
