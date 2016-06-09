@@ -10,6 +10,7 @@ RUN \
       msmtp \
       mariadb-client \
       htop \
+      php5-xdebug \
     && docker-php-ext-install -j$(nproc) \
       iconv \
       mcrypt \
